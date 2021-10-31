@@ -1,0 +1,89 @@
+
+
+/********************************************/
+@media screen and (max-width:768px){
+    button{
+        padding: 8px 15px;
+    }
+    .top-row{
+        background-image: cover;
+        width: 100%;
+    }
+     .top-row .left-row h1{
+        font-size: 20px;
+        font-weight: 800;
+        
+    }
+    .top-row .left-row h3{
+        font-size: 18px;
+    }
+    .top-row .left-row p{
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .right-row-img{
+        display: none;
+    }
+    /****heading and card**********/
+    .heading h3{
+        color: rgb(108, 126, 95);
+        font-size: 25px;
+        text-align: center;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+       margin: 5px 40px;
+        align-items: center;
+    }
+    /******jumbotron********/
+    .jumbotron button{
+        margin: 5px;
+        padding: 10px 30px;
+    }
+    /******form**********/
+    .form-row form{
+        padding:1px 10px;
+    }
+    .form-control{
+       width: 70%;
+       margin-left: 40px;
+        
+    }
+    #message{
+       margin-left: 30px;
+       width: 75%;
+       border: none;
+    }
+    .main-btn{
+        margin-left: 45px;
+    }
+    /*******page 2 cities**************/
+
+    /*******text image*section1********/
+    .text-img{
+        color: seashell;
+    }
+    .text-img h1{
+       font-size: 25px;
+       font-weight: 700;
+    }
+    .text-img p{
+        font-size: 13px;
+    }
+    /**section 2 card **heading*****/
+    .section-heading {
+        font-size: 18px;
+        font-family: 600;
+        color: rgb(64, 92, 55);
+    }
+    /**************page 3***************************/
+    /*****************Section 3 TABLE PlACE*********************/
+    .table-striped{
+     font-size: 15px;
+     width: 98%;
+    }
+    
+}
+/**********************************************/
+

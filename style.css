@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+margin: 0;
+padding: 0;
+
+}
+body{
+    font-family: 'Andada Pro', serif; 
+}
+h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+button{
+    background-color:rgb(87, 116, 103);
+    padding: 10px 25px;
+    border: none;
+   border-radius:5% ;
+    cursor: pointer;
+    color: white;
+    transition: all  0.35s ease-in-out ;
+}
+button:hover{
+    background-color: rgb(184, 199, 189);
+
+}
+/*--Header---*/
+ nav{
+ 
+   background-color: #26423b;
+    
+}
+/****NAVBAR LEFT****/
+nav a{
+  padding: 0px 10px;
+ 
+}
+
+/******NAVBAR RIGHT*****/
+.nav-item a {
+    color: white;
+    padding:0px 20px ;
+    cursor: pointer;
+  
+}
+
+.nav-item a:hover{
+color: rgba(230, 223, 223, 0.808);
+}
+/*section 2 img cover*/
+.top-row{
+    background-image: url("./images/M.jpg");
+    width: 100%;
+    height: 85vh;
+    background-size: cover;
+    background-position:center center;
+    color: white;
+    
+}
+/*left row*/
+.top-row .left-row{
+padding: 7rem;
+}
+.top-row .left-row h1{
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+}
+.left-row span{
+    color: rgb(74, 116, 96);
+    font-weight: 900;
+}
+.top-row .left-row h3{
+    font-size: 25px;
+
+   
+
+}
+.top-row .left-row p{
+    font-size: 18px;
+    padding: 13px 3px;
+  
+}
+/****button*****/
+.btn a{
+    color:white;
+    text-decoration: none;
+}
+/******img right row********/
+.top-row .right-row{
+    padding: 15px;
+}
+ .right-row-img  {
+    margin: 100px 0;
+    
+}
+/****************/
+/*******section2***********/
+.container{
+    padding: 15px 12px;
+    }
+ .heading h3{
+padding: 15px 10px;
+text-align: center;
+font-size: 30px;
+font-weight: 800;
+color: black;
+}
+/*******CARD*********/
+
+    .card h4{
+        text-align: center;
+        padding: 15px 2px;
+        font-size: 20px;
+        font-weight: 700;
+    } 
+    .card-text{
+        text-align: left;
+        font-size: 13px;
+        font-weight: 300;
+        
+    }
+/**jumbotron**/
+.jumbotron{
+margin: 5px 4px;
+background-color: #bacac4;
+text-align: center;
+
+}
+.jumbotron h2{
+    font-size: 25px;
+    font-weight: 500;
+}
+.jumbotron input{
+    padding: 5px 20px;
+    border: 1px solid #ffffff;
+}
+.jumbotron button{
+    padding: 5px 18px;
+}
+.list{
+    list-style-position: inside;
+}
+/***********CONTACT*****************/
+.contact{
+    background-color: rgba(204, 207, 207, 0.986);
+    opacity: 0.9;
+}
+
+ .container h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+   
+}
+/**الجهة اليسار الايقونات **/
+.row-contact {
+  padding-left: 60px;
+   cursor: pointer;
+   font-size: 25px;
+   
+}
+.row-contact h3{
+    padding-left: 50px;
+}
+.row-contact a{
+   color:white ;
+   font-size: 20px;
+   text-decoration: none;
+  
+}
+.row-contact a:hover,
+.row-contact i:hover{
+    color: rgb(93, 122, 118);
+}
+
+
+/**********form*************/
+.form-row form{
+    
+    padding: 25px 0px ;
+     
+}
+.form-control{
+    margin: 10px 0px;
+    padding: 10px 15px;
+}
+/******textrea*******/
+#message{
+    margin: 10px 0px;
+    padding: 30px 60px;
+    border: none;
+  
+}
+.main-btn {
+margin-left:30px ;
+}
+
+/*********FOOTER************/
+footer{
+background-color: rgb(93, 122, 118);
+padding: 20px 10px;
+}
+.footer  i,
+.footer h4,
+.footer h6{
+    display: flex;
+  justify-content: center;
+  
+
+}
+
+/************page 3 *************************
+*********************place*****************/
+.carousel-item{
+    font-size: 50px;
+    font-weight: 900;
+   
+    
+}
+.carousel-item img{
+    width: 100%;
+    height: 50vh;
+}
+/*******table*********/
+
+.table-striped{
+   background-color: rgb(181, 189, 179);
+   margin: 10px 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+ td img{
+   
+    height: 50px;
+}
+.table-striped a{
+    color: rgb(246, 253, 250);
+    text-decoration: none;
+}
+.table-striped a:hover{
+    color: rgb(69, 76, 76);
+    
+}
+
+
+/********************page 2***************************************
+************************city*******************************/
+/*image*/
+.img-fluid{
+    background-image: url("./images/MM.jpg");
+    background-size: cover;
+    background-position:center center;
+    height:70vh ;
+    
+    
+}
+.text-img {
+    padding-top: 15% ;
+    padding-right: 50%;
+    padding-left: 5%;
+    color:white;
+   
+    
+} 
+.text-img h1{
+    font-size: 30px;
+   font-weight: 800;
+  
+}
+.text-img p{
+    font-size: 18px;
+    font-weight: 600;
+  
+}
+/***** tital card*********/
+.section-heading{
+text-align: center;
+font-size: 30px;
+padding: 10px 10px;
+}
+/*********city name card img**********/
+.container-row {
+    display: flex;
+    flex-direction: row;
+   gap: 3px;
+    justify-content: space-around;
+  padding: 10px 5px;
+  font-weight: 600;
+}
+.container-row img{
+    height: 30vh;
+}
+.card-text{
+   font-size: 20px;
+ font-weight: 700;
+}
+.card-body a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
